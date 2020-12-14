@@ -1,7 +1,7 @@
 // vars/stepUpdate.groovy
 
-def myecho(input) {
-  echo "Echo: ${input}"
+def call(input) {
+  sh "echo 'Echo: ${input}''
 }
 
 return this
