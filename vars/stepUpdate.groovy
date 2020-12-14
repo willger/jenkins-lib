@@ -1,5 +1,4 @@
-// src/org/slack-bot/stepUpdate.groovy
-package org.slack-bot
+// vars/stepUpdate.groovy
 
 def myecho(input) {
   echo "Echo: ${input}"
