@@ -1,6 +1,6 @@
 // vars/stepUpdate.groovy
 
-def call(sclr, smsg) {
+def call(String sclr, String smsg) {
   if (binding.hasVariable('slackResponse')) {
       slackSend(botUser: true, color: sclr, channel: ts_id, message: smsg, tokenCredentialId: 'Slack-Max-Token', iconEmoji: 'dog', username: 'Dommie')
   } else {
